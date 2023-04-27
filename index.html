@@ -4,7 +4,45 @@
 <head>
     <title>Styling Exercise</title>
     <style>
-        /* Your CSS code goes here */
+.header{
+    background-color:antiquewhite;
+}
+.main{
+    background-color: coral;
+}
+.footer{
+    background-color: darkblue;
+}
+li{
+    color: pink;
+    font-size: 15px;
+}
+p{
+    color: greenyellow;
+    font-size: 20px;
+}
+h1, h2{
+    color:blueviolet;
+    font-size: 30px;
+}
+#first-item{
+    border: 2px solid red;
+    color:black;
+}
+a[href="1"]:hover, a[href="2"]:hover, a[href="3"]:hover{
+    color:aqua;
+}
+a[href="4"]:hover, a[href="5"]:hover{
+    color: red;
+}
+p::first-letter{
+    color:darkmagenta;
+    font-size: 50px;
+}
+header, main, footer{
+    padding: 10px;
+    margin: 30px;
+}
     </style>
 </head>
 
@@ -13,9 +51,9 @@
         <h1>My Website</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="1">Home</a></li>
+                <li><a href="2">About</a></li>
+                <li><a href="3">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -37,8 +75,8 @@
         <p>&copy; 2023 My Website. All rights reserved.</p>
         <nav>
             <ul>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Use</a></li>
+                <li><a href="4">Privacy Policy</a></li>
+                <li><a href="5">Terms of Use</a></li>
             </ul>
         </nav>
     </footer>
